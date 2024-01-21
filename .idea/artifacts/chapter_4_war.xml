@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="chapter.4:war">
+    <output-path>$PROJECT_DIR$/chapter.4/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>chapter.4</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="spring-boot-mvc-testing-demo-1.0.0.war">
+      <element id="artifact" artifact-name="chapter.4:war exploded" />
+    </root>
+  </artifact>
+</component>

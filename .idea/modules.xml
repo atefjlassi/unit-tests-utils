@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1.00-starting-project/chapter.1.iml" filepath="$PROJECT_DIR$/1.00-starting-project/chapter.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.00-starting-project/chapter.2.iml" filepath="$PROJECT_DIR$/2.00-starting-project/chapter.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.20-starting-project/chapter.3.iml" filepath="$PROJECT_DIR$/2.20-starting-project/chapter.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/junitdemo/junitdemo.iml" filepath="$PROJECT_DIR$/junitdemo/junitdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/project_unit_test.iml" filepath="$PROJECT_DIR$/.idea/project_unit_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-unit-testing-demo_3/spring-boot-mvc-testing-demo_3.iml" filepath="$PROJECT_DIR$/spring-boot-unit-testing-demo_3/spring-boot-mvc-testing-demo_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-unit-testing-demo/spring-boot-unit-testing-demo.iml" filepath="$PROJECT_DIR$/spring-boot-unit-testing-demo/spring-boot-unit-testing-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-unit-testing-demo_2/spring-boot-unit-testing-demo_2.iml" filepath="$PROJECT_DIR$/spring-boot-unit-testing-demo_2/spring-boot-unit-testing-demo_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter.4/spring-boot-unit-testing-demo_3.iml" filepath="$PROJECT_DIR$/chapter.4/spring-boot-unit-testing-demo_3.iml" />
+    </modules>
+  </component>
+</project>

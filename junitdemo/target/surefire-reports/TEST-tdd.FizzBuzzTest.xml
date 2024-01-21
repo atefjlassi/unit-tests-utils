@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tdd.FizzBuzzTest" time="0.474" tests="169" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\My work\2-Espace de travail\JAVA_Training\Unit_Test\project_unit_test\chapter.1\target\test-classes;D:\My work\2-Espace de travail\JAVA_Training\Unit_Test\project_unit_test\chapter.1\target\classes;C:\Users\Atef Jlassi\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\Atef Jlassi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Atef Jlassi\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Atef Jlassi\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Atef Jlassi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Atef Jlassi\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Atef Jlassi\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Atef Jlassi\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="java.vm.vendor" value="GraalVM Community"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.graalvm.org/"/>
+    <property name="user.timezone" value="Africa/Luanda"/>
+    <property name="user.country.format" value="TN"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\graalvm-ce-java11-22.3.0\bin"/>
+    <property name="sun.java.command" value="C:\Users\Atef Jlassi\AppData\Local\Temp\surefire10661505641610721799\surefirebooter11763918263709019825.jar C:\Users\Atef Jlassi\AppData\Local\Temp\surefire10661505641610721799 2023-10-03T14-41-40_885-jvmRun1 surefire13200288995750505016tmp surefire_011040613975610607803tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\My work\2-Espace de travail\JAVA_Training\Unit_Test\project_unit_test\chapter.1\target\test-classes;D:\My work\2-Espace de travail\JAVA_Training\Unit_Test\project_unit_test\chapter.1\target\classes;C:\Users\Atef Jlassi\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\Atef Jlassi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Atef Jlassi\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Atef Jlassi\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Atef Jlassi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Atef Jlassi\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Atef Jlassi\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Atef Jlassi\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Atef Jlassi"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Java\graalvm-ce-java11-22.3.0"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\My work\2-Espace de travail\JAVA_Training\Unit_Test\project_unit_test\chapter.1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="jdk.internal.vm.ci.enabled" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Atef Jlassi\AppData\Local\Temp\surefire10661505641610721799\surefirebooter11763918263709019825.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.17+8-jvmci-22.3-b08"/>
+    <property name="user.name" value="Atef Jlassi"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="GraalVM CE 22.3.0"/>
+    <property name="localRepository" value="C:\Users\Atef Jlassi\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/oracle/graal/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\ATEFJL~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.17"/>
+    <property name="user.dir" value="D:\My work\2-Espace de travail\JAVA_Training\Unit_Test\project_unit_test\chapter.1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\graalvm-ce-java11-22.3.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Atef Jlassi\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Program Files\Java\graalvm-ce-java11-22.3.0\bin;C:\Program Files\Java\jdk-11.0.15\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.8.1\bin\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_333\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;%M2_HOME%\bin;C:\P;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\cl.exe;C:\Program Files\Microsoft SQL Server\160\Tools\Binn;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\cl.exe;C:\Program Files\Java\graalvm-ce-java11-22.3.0\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Atef Jlassi\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.8.1\bin;C:\Program Files\Java\jdk1.8.0_333\bin;C:\Program Files\Java\jdk1.8.0_333;C:\Users\Atef Jlassi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Atef Jlassi\AppData\Local\Programs\Azure Data Studio\bin;C:\Users\Atef Jlassi\Documents\apache-maven-3.8.5\bin;C:\Apache24\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="GraalVM Community"/>
+    <property name="java.vm.version" value="11.0.17+8-jvmci-22.3-b08"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Divisible by Three" classname="tdd.FizzBuzzTest" time="0.004"/>
+  <testcase name="Divisible by Five" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="Divisible by Three and Five" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="Not Divisible by Three or Five" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=1, expected=1" classname="tdd.FizzBuzzTest" time="0.031"/>
+  <testcase name="value=2, expected=2" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=3, expected=Fizz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=4, expected=4" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=5, expected=Buzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=6, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=7, expected=7" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=8, expected=8" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=9, expected=Fizz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=10, expected=Buzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=11, expected=11" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=12, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=13, expected=13" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=14, expected=14" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=15, expected=FizzBuzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=1, expected=1" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=2, expected=2" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=3, expected=Fizz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=4, expected=4" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=5, expected=Buzz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=6, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=7, expected=7" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=8, expected=8" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=9, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=10, expected=Buzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=11, expected=11" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=12, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=13, expected=13" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=14, expected=14" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=15, expected=FizzBuzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=16, expected=16" classname="tdd.FizzBuzzTest" time="0.002"/>
+  <testcase name="value=17, expected=17" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=18, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=19, expected=19" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=20, expected=Buzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=21, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=22, expected=22" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=23, expected=23" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=24, expected=Fizz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=25, expected=Buzz" classname="tdd.FizzBuzzTest" time="0.002"/>
+  <testcase name="value=26, expected=26" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=27, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=28, expected=28" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=29, expected=29" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=30, expected=FizzBuzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=31, expected=31" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=32, expected=32" classname="tdd.FizzBuzzTest" time="0.002"/>
+  <testcase name="value=33, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=34, expected=34" classname="tdd.FizzBuzzTest" time="0.002"/>
+  <testcase name="value=35, expected=Buzz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=36, expected=Fizz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=37, expected=37" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=38, expected=38" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=39, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=40, expected=Buzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=41, expected=41" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=42, expected=Fizz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=43, expected=43" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=44, expected=44" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=45, expected=FizzBuzz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=46, expected=46" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=47, expected=47" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=48, expected=Fizz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=49, expected=49" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=50, expected=Buzz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=1, expected=1" classname="tdd.FizzBuzzTest" time="0.002"/>
+  <testcase name="value=2, expected=2" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=3, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=4, expected=4" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=5, expected=Buzz" classname="tdd.FizzBuzzTest" time="0.002"/>
+  <testcase name="value=6, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=7, expected=7" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=8, expected=8" classname="tdd.FizzBuzzTest" time="0.002"/>
+  <testcase name="value=9, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=10, expected=Buzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=11, expected=11" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=12, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=13, expected=13" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=14, expected=14" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=15, expected=FizzBuzz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=16, expected=16" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=17, expected=17" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=18, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=19, expected=19" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=20, expected=Buzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=21, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=22, expected=22" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=23, expected=23" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=24, expected=Fizz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=25, expected=Buzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=26, expected=26" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=27, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.002"/>
+  <testcase name="value=28, expected=28" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=29, expected=29" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=30, expected=FizzBuzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=31, expected=31" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=32, expected=32" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=33, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=34, expected=34" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=35, expected=Buzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=36, expected=Fizz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=37, expected=37" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=38, expected=38" classname="tdd.FizzBuzzTest" time="0.002"/>
+  <testcase name="value=39, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.002"/>
+  <testcase name="value=40, expected=Buzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=41, expected=41" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=42, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=43, expected=43" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=44, expected=44" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=45, expected=FizzBuzz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=46, expected=46" classname="tdd.FizzBuzzTest" time="0.002"/>
+  <testcase name="value=47, expected=47" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=48, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.002"/>
+  <testcase name="value=49, expected=49" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=50, expected=Buzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=51, expected=Fizz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=52, expected=52" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=53, expected=53" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=54, expected=Fizz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=55, expected=Buzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=56, expected=56" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=57, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=58, expected=58" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=59, expected=59" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=60, expected=FizzBuzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=61, expected=61" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=62, expected=62" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=63, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=64, expected=64" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=65, expected=Buzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=66, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=67, expected=67" classname="tdd.FizzBuzzTest" time="0.002"/>
+  <testcase name="value=68, expected=68" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=69, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=70, expected=Buzz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=71, expected=71" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=72, expected=Fizz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=73, expected=73" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=74, expected=74" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=75, expected=FizzBuzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=76, expected=76" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=77, expected=77" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=78, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=79, expected=79" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=80, expected=Buzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=81, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=82, expected=82" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=83, expected=83" classname="tdd.FizzBuzzTest" time="0.002"/>
+  <testcase name="value=84, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.002"/>
+  <testcase name="value=85, expected=Buzz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=86, expected=86" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=87, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=88, expected=88" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=89, expected=89" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=90, expected=FizzBuzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=91, expected=91" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=92, expected=92" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=93, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=94, expected=94" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=95, expected=Buzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=96, expected=Fizz" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=97, expected=97" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=98, expected=98" classname="tdd.FizzBuzzTest" time="0.001"/>
+  <testcase name="value=99, expected=Fizz" classname="tdd.FizzBuzzTest" time="0"/>
+  <testcase name="value=100, expected=Buzz" classname="tdd.FizzBuzzTest" time="0.001"/>
+</testsuite>

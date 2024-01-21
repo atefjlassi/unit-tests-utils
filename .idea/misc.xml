@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-mvc-testing-demo_3" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/1.00-starting-project/pom.xml" />
+        <option value="$PROJECT_DIR$/2.00-starting-project/pom.xml" />
+        <option value="$PROJECT_DIR$/2.20-starting-project/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter.4/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter.3/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter.1/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter.2/pom.xml" />
+        <option value="$PROJECT_DIR$/junitdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-unit-testing-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-unit-testing-demo_3/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-unit-testing-demo_2/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>
